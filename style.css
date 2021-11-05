@@ -1,0 +1,55 @@
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+body{
+    background-color:#5286F3;
+    font-size:14px;
+    color:#fff;
+}
+
+.btn-login{
+    background-color:#FF5964;
+    color:#fff;
+}
+
+.status{
+    border: 1.5px solid white;
+    margin-bottom: 30px;
+}
+#before_start{
+    width: 300px;
+    position:absolute;
+    top:50%; left:50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+form{
+    position:absolute;
+    top:50%; left:50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+}
+button{
+    width: 100%;
+    padding: 10px;
+}
+table{
+    width: 100%;
+    border: 1.5px solid white;
+    border-collapse: collapse;
+    text-align: center;
+    margin-bottom: 20px;
+}
+td{
+    padding: 60px;
+    border: 1.5px solid white;
+}

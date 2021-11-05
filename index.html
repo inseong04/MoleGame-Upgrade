@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="bootstrap-4.0.0-dist/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <style>
+    
+    * {
+        font-family: 'Noto Sans KR', sans-serif;
+    }
+
+    body{
+    background-color:#5286F3;
+    font-size:14px;
+    color:#fff;
+}
+.btn-login{
+    background-color:#FF5964;
+    color:#fff;
+}
+    </style>
+
+    <title>두더지게임</title>
+</head>
+<body>
+    
+    <div id="before_start" style="
+    width: 300px;
+    position:absolute;
+    top:50%; left:50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    ">
+        <h1 style="text-align: center; font-size: 60px">두더지잡기 게임</h1>
+        <p>목숨 5개, 가장많은 두더지를 잡아 친구에게 자랑해보세요!</p>
+        <button id="start_button"   class="btn btn-block btn-login"  type="button" onclick="location.href='login.html'">로그인</button>
+        <button id="register_button"   class="btn btn-block btn-login"  type="button" onclick="location.href='register.html'">회원가입</button>
+    </div>    
+</body>
+</html>
